@@ -8,6 +8,7 @@ TagManager:
   - Core
   - Wall
   - NextLevel
+  - dummy
   layers:
   - Default
   - TransparentFX

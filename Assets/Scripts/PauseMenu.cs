@@ -7,7 +7,7 @@ public class PauseMenu : MonoBehaviour
 {
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
-  //  [SerializeField] SaveData saveData;
+  //[SerializeField] SaveData saveData;
     
     void Update()
     {
@@ -38,20 +38,12 @@ public class PauseMenu : MonoBehaviour
         GameIsPaused = true;
     }
 /*
-    public void SavingGame()
+    public void SaveGame()
     {
         Debug.Log("The Game is saved!");
-        saveData.currentLevel = SceneManager.GetActiveScene().buildIndex;
-        saveData.playerLives = GameObject.Find("Player").GetComponent<LivesCounter>().currentLife;
-        saveData.playerLocationX = GameObject.Find("Player").transform.position.x;
-        saveData.playerLocationY = GameObject.Find("Player").transform.position.y;
-        saveData.playerLocationZ = GameObject.Find("Player").transform.position.z;
-
-        SaveManager.Save(saveData);
+        
     }
 */
-    //saveData = SaveManager.Load();
-    //GameObject.Find("Player").transform.position = new Vector3(saveData.playerLocationX, saveData.playerLocationY, saveData.playerLocationZ);
 
     public void LoadMenu()
     {

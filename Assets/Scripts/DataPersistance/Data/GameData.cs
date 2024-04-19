@@ -7,13 +7,13 @@ using UnityEngine.SceneManagement;
 
 public class GameData
 {
-   // public int currentLevel;
+    //public int currentLevel;
     public int currentLife;
     public Vector3 playerPosition;
 
     public GameData()
     {
-        //this.currentLevel = 1;
+        //this.currentLevel = 0;
         this.currentLife = 3;
         playerPosition = GameObject.Find("RespawnPoint").transform.position;
     }

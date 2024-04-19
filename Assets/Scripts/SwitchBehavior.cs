@@ -6,6 +6,8 @@ public class SwitchBehavior : MonoBehaviour
 {
     [SerializeField] DoorBehavior doorBehavior;
     [SerializeField] bool isDoorOpenSwitch;
+
+    [SerializeField] bool isDoorOpenHorizontalPlate;
     [SerializeField] bool isDoorCloseSwitch;
 
     float switchSizeY;
@@ -66,6 +68,10 @@ public class SwitchBehavior : MonoBehaviour
                  if (isDoorOpenSwitch && !doorBehavior.isDoorOpen)
                 {
                     doorBehavior.isDoorOpen = !doorBehavior.isDoorOpen;
+                }
+                else if (isDoorOpenHorizontalPlate && !doorBehavior.isDoorOpenHorizontal)
+                {
+                    doorBehavior.isDoorOpenHorizontal = !doorBehavior.isDoorOpenHorizontal;
                 }
                 else if (isDoorCloseSwitch && !doorBehavior.isDoorOpen)
                 {

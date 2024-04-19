@@ -23,7 +23,7 @@ public class TrajectoryLine : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        //lr.enabled = false;
+        lr.enabled = false;
         segments = new Vector3[segmentCount];
 
         lr = GetComponent<LineRenderer>();
@@ -36,12 +36,16 @@ public class TrajectoryLine : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*
-        if (Input.GetKeyDown(KeyCode.Mouse1))
+        
+        if (Input.GetKey(KeyCode.Mouse1))
         {
             lr.enabled = true;
         }
-        */
+        else 
+        {
+            lr.enabled = false;
+        }
+        
 
         Vector3 startPos = CoreSpawn.position;
         segments[0] = startPos;

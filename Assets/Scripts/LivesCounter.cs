@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class LivesCounter : MonoBehaviour
+public class LivesCounter : MonoBehaviour, IDataPersistance
 {
   public Image[] lives;
   public int currentLife;
@@ -22,6 +22,16 @@ public class LivesCounter : MonoBehaviour
         {
             SceneManager.LoadScene("Main Menu");
         }
+  }
+
+  public void LoadData(GameData data)
+  {
+      this.currentLife = data.currentLife;
+  }
+
+  public void SaveData(ref GameData data)
+  {
+      data.currentLife = this.currentLife;
   }
    
 }

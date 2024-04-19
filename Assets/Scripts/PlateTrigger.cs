@@ -6,6 +6,7 @@ public class PlateTrigger : MonoBehaviour
 {
      [SerializeField] DoorBehavior doorBehavior;
     [SerializeField] bool isDoorOpenPlate;
+    [SerializeField] bool isDoorOpenHorizontalPlate;
 
     float plateSizeY;
     Vector3 plateUpPos;
@@ -61,6 +62,10 @@ public class PlateTrigger : MonoBehaviour
             {
                 doorBehavior.isDoorOpen = !doorBehavior.isDoorOpen;
             }
+            else if (isDoorOpenHorizontalPlate && !doorBehavior.isDoorOpenHorizontal)
+            {
+                doorBehavior.isDoorOpenHorizontal = !doorBehavior.isDoorOpenHorizontal;
+            }
         }
     }
 
@@ -72,6 +77,10 @@ public class PlateTrigger : MonoBehaviour
             if (isDoorOpenPlate && doorBehavior.isDoorOpen)
             {
                 doorBehavior.isDoorOpen = !doorBehavior.isDoorOpen;
+            }
+            else if (isDoorOpenHorizontalPlate && doorBehavior.isDoorOpenHorizontal)
+            {
+                doorBehavior.isDoorOpenHorizontal = !doorBehavior.isDoorOpenHorizontal;
             }
             StartCoroutine(PlateUpDelay(plateDelay));
         }
