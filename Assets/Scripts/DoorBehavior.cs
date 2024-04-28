@@ -16,7 +16,7 @@ public class DoorBehavior : MonoBehaviour
     {
         doorClosedPos = transform.position;
         doorOpenPos = new Vector3(transform.position.x, transform.position.y + 3f, transform.position.z);
-        doorOpenHorizontalPos = new Vector3(transform.position.x - 6f, transform.position.y, transform.position.z);
+        doorOpenHorizontalPos = new Vector3(transform.position.x + 6f, transform.position.y, transform.position.z);
     }
 
     // Update is called once per frame

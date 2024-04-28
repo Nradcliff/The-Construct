@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8051105406802836260}
   - component: {fileID: 4499363054148438752}
   - component: {fileID: 6569534117327098019}
+  - component: {fileID: 2700640726681509144}
   m_Layer: 0
   m_Name: Core
   m_TagString: Core
@@ -149,4 +150,19 @@ MonoBehaviour:
   core: {fileID: 2573938901124485100}
   boundryDetect:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1048576
+--- !u!114 &2700640726681509144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025287530639146460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11c3ed77e3599ab48aea95e2830c4de2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  core: {fileID: 4499363054148438752}
+  CORE: {fileID: 2025287530639146460}
+  Impact: {fileID: -3693208516706711965, guid: 3c02343ec38fd0642b82f9b02286f6a4, type: 3}

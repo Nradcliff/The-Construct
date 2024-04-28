@@ -2,39 +2,29 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CorePhysics : MonoBehaviour
+[RequireComponent(typeof(Rigidbody))]
+public class CorePhysics : PoolableObject
 {
-
-    [SerializeField] private Rigidbody Core;
-    private Vector3 velocity;
-    public float thrust;
-    public float power;
-    bool done;
-    [SerializeField] private int NumOfBounces = 2;
-    private int curBounces = 0;
+    [SerializeField] private Rigidbody core;
+    public GameObject CORE;
+    public PoolableObject Impact;
  
-    void Start ()
+    void Awake()
     {
-        Core = GetComponent<Rigidbody>();
-        velocity = Core.velocity;
+        core = GetComponent<Rigidbody>();
     }
  
-   void OnCollisionEnter(Collision collision)
+    void OnCollisionEnter(Collision collision)
     {
-        //Rigidbody rb = collision.gameObject.GetComponent<Rigidbody>();
-        //Vector3 dir = collision.contacts[0].normal;
-
-        if(Core != null /*&& curBounces < NumOfBounces*/)
+        if (!CORE.CompareTag("dummy"))
         {
-            Reflect(Core, collision.contacts[0].normal);
-            Core.AddForce(power, thrust, 0, ForceMode.VelocityChange);
-            curBounces++;
-        }
-    }
+            ContactPoint contact = collision.GetContact(0);
 
-    private void Reflect(Rigidbody rb, Vector3 reflectVector)
-    {
-        velocity = Vector3.Reflect(velocity, reflectVector);
-        rb.velocity = velocity;
+            ObjectPool pool = ObjectPool.CreateInstance(Impact, 5);
+            PoolableObject pooledObject = pool.GetObject();
+
+            pooledObject.transform.position = contact.point;
+            pooledObject.transform.right = contact.normal;
+        }
     }
 }

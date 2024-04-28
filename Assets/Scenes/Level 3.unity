@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: e8d3d28f9ea9f9143971e6028c486748, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 6993420}
   - component: {fileID: 6993419}
   - component: {fileID: 6993418}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Tunnel (7)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -240,7 +240,7 @@ GameObject:
   - component: {fileID: 40555468}
   - component: {fileID: 40555467}
   - component: {fileID: 40555466}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Ground (18)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -346,7 +346,7 @@ GameObject:
   - component: {fileID: 51443484}
   - component: {fileID: 51443483}
   - component: {fileID: 51443482}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: Checkpoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -688,7 +688,7 @@ GameObject:
   - component: {fileID: 120490554}
   - component: {fileID: 120490553}
   - component: {fileID: 120490552}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Tunnel (11)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -965,7 +965,7 @@ GameObject:
   - component: {fileID: 150677465}
   - component: {fileID: 150677464}
   - component: {fileID: 150677463}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Ground (15)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1070,7 +1070,7 @@ GameObject:
   - component: {fileID: 162357377}
   - component: {fileID: 162357376}
   - component: {fileID: 162357375}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Ground (7)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1265,7 +1265,7 @@ GameObject:
   - component: {fileID: 226357445}
   - component: {fileID: 226357444}
   - component: {fileID: 226357443}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Ground (16)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1370,7 +1370,7 @@ GameObject:
   - component: {fileID: 232767275}
   - component: {fileID: 232767274}
   - component: {fileID: 232767273}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Ground (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1774,7 +1774,7 @@ GameObject:
   - component: {fileID: 328386351}
   - component: {fileID: 328386350}
   - component: {fileID: 328386349}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: DeathBarrier
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -2222,7 +2222,7 @@ GameObject:
   - component: {fileID: 378899889}
   - component: {fileID: 378899888}
   - component: {fileID: 378899887}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Ground (4)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -2595,7 +2595,7 @@ GameObject:
   - component: {fileID: 396386842}
   - component: {fileID: 396386841}
   - component: {fileID: 396386840}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Ground (20)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -2700,7 +2700,7 @@ GameObject:
   - component: {fileID: 405886132}
   - component: {fileID: 405886131}
   - component: {fileID: 405886130}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Ground (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -2805,7 +2805,7 @@ GameObject:
   - component: {fileID: 424369191}
   - component: {fileID: 424369190}
   - component: {fileID: 424369189}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Slant (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2911,7 +2911,7 @@ GameObject:
   - component: {fileID: 425314035}
   - component: {fileID: 425314034}
   - component: {fileID: 425314033}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Ground (8)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -3099,7 +3099,7 @@ GameObject:
   - component: {fileID: 433688898}
   - component: {fileID: 433688897}
   - component: {fileID: 433688896}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Ground (17)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -3294,7 +3294,7 @@ GameObject:
   - component: {fileID: 468301460}
   - component: {fileID: 468301459}
   - component: {fileID: 468301458}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Ground (12)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -3504,7 +3504,7 @@ GameObject:
   - component: {fileID: 639898363}
   - component: {fileID: 639898362}
   - component: {fileID: 639898361}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Ground (13)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -3609,7 +3609,7 @@ GameObject:
   - component: {fileID: 657672311}
   - component: {fileID: 657672310}
   - component: {fileID: 657672309}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Tunnel (3)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -3714,7 +3714,7 @@ GameObject:
   - component: {fileID: 681709575}
   - component: {fileID: 681709574}
   - component: {fileID: 681709573}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Slant (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3820,7 +3820,7 @@ GameObject:
   - component: {fileID: 781117151}
   - component: {fileID: 781117150}
   - component: {fileID: 781117149}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Ground (3)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -3925,7 +3925,7 @@ GameObject:
   - component: {fileID: 793088603}
   - component: {fileID: 793088602}
   - component: {fileID: 793088601}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Slant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4031,7 +4031,7 @@ GameObject:
   - component: {fileID: 837059871}
   - component: {fileID: 837059870}
   - component: {fileID: 837059869}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Slant (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4137,7 +4137,7 @@ GameObject:
   - component: {fileID: 863868386}
   - component: {fileID: 863868385}
   - component: {fileID: 863868384}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Ground (14)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -4323,7 +4323,7 @@ GameObject:
   - component: {fileID: 902239711}
   - component: {fileID: 902239710}
   - component: {fileID: 902239709}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Slant (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4679,7 +4679,7 @@ GameObject:
   - component: {fileID: 996866491}
   - component: {fileID: 996866490}
   - component: {fileID: 996866489}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Slant (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4820,7 +4820,7 @@ GameObject:
   - component: {fileID: 1034708894}
   - component: {fileID: 1034708893}
   - component: {fileID: 1034708892}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Tunnel
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -4925,7 +4925,7 @@ GameObject:
   - component: {fileID: 1041835535}
   - component: {fileID: 1041835534}
   - component: {fileID: 1041835533}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Tunnel (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -5146,7 +5146,7 @@ GameObject:
   - component: {fileID: 1101809101}
   - component: {fileID: 1101809100}
   - component: {fileID: 1101809099}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Ground (6)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -5401,7 +5401,7 @@ GameObject:
   - component: {fileID: 1132677222}
   - component: {fileID: 1132677221}
   - component: {fileID: 1132677220}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Tunnel (8)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -5772,7 +5772,7 @@ GameObject:
   - component: {fileID: 1214976492}
   - component: {fileID: 1214976491}
   - component: {fileID: 1214976490}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Tunnel (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -5877,7 +5877,7 @@ GameObject:
   - component: {fileID: 1220174421}
   - component: {fileID: 1220174420}
   - component: {fileID: 1220174419}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Tunnel (10)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -6206,7 +6206,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   keepAlive: 0
   obstacles: {fileID: 1288305417}
-  maxIterations: 200
+  maxIterations: 100
 --- !u!1 &1369575125
 GameObject:
   m_ObjectHideFlags: 0
@@ -6219,7 +6219,7 @@ GameObject:
   - component: {fileID: 1369575129}
   - component: {fileID: 1369575128}
   - component: {fileID: 1369575127}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Slant (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6325,7 +6325,7 @@ GameObject:
   - component: {fileID: 1377942672}
   - component: {fileID: 1377942671}
   - component: {fileID: 1377942670}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Tunnel (5)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -6495,7 +6495,7 @@ GameObject:
   - component: {fileID: 1466127977}
   - component: {fileID: 1466127976}
   - component: {fileID: 1466127975}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Ground (9)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -6600,7 +6600,7 @@ GameObject:
   - component: {fileID: 1482567037}
   - component: {fileID: 1482567036}
   - component: {fileID: 1482567035}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Slant (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6703,7 +6703,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1530583678}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: RespawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6737,7 +6737,7 @@ GameObject:
   - component: {fileID: 1580667629}
   - component: {fileID: 1580667628}
   - component: {fileID: 1580667627}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Tunnel (4)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -6842,7 +6842,7 @@ GameObject:
   - component: {fileID: 1582276776}
   - component: {fileID: 1582276775}
   - component: {fileID: 1582276774}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Ground
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -7026,7 +7026,7 @@ GameObject:
   - component: {fileID: 1610115983}
   - component: {fileID: 1610115982}
   - component: {fileID: 1610115981}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Slant (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7285,7 +7285,7 @@ GameObject:
   - component: {fileID: 1689003506}
   - component: {fileID: 1689003505}
   - component: {fileID: 1689003504}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Ground (19)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -7740,7 +7740,7 @@ Transform:
   m_GameObject: {fileID: 1723599500}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.114939, y: 25.111885, z: -8}
+  m_LocalPosition: {x: 18.895975, y: 25.111885, z: -8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7758,7 +7758,7 @@ GameObject:
   - component: {fileID: 1773682414}
   - component: {fileID: 1773682413}
   - component: {fileID: 1773682412}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Slant (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7864,7 +7864,7 @@ GameObject:
   - component: {fileID: 1788838034}
   - component: {fileID: 1788838033}
   - component: {fileID: 1788838032}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Tunnel (6)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -8044,7 +8044,7 @@ GameObject:
   - component: {fileID: 1830881312}
   - component: {fileID: 1830881311}
   - component: {fileID: 1830881310}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Ground (5)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -8149,7 +8149,7 @@ GameObject:
   - component: {fileID: 1861613763}
   - component: {fileID: 1861613762}
   - component: {fileID: 1861613761}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Ground (10)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -8387,7 +8387,7 @@ GameObject:
   - component: {fileID: 1882789882}
   - component: {fileID: 1882789881}
   - component: {fileID: 1882789880}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Tunnel (9)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -8642,7 +8642,7 @@ GameObject:
   - component: {fileID: 1971369065}
   - component: {fileID: 1971369064}
   - component: {fileID: 1971369063}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Slant (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8898,7 +8898,7 @@ GameObject:
   - component: {fileID: 2029205277}
   - component: {fileID: 2029205276}
   - component: {fileID: 2029205275}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Slant (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9004,7 +9004,7 @@ GameObject:
   - component: {fileID: 2086490260}
   - component: {fileID: 2086490259}
   - component: {fileID: 2086490258}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Ground (11)
   m_TagString: Ground
   m_Icon: {fileID: 0}

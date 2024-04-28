@@ -16,17 +16,17 @@ public class Teleport : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Collider[] hitColliders = Physics.OverlapSphere(core.transform.position, 1);
+        Collider[] hitColliders = Physics.OverlapSphere(core.transform.position, 1, boundryDetect);
         if (Input.GetKeyDown("t"))
         {
-            if (hitColliders.Length >= 3)
+            if (hitColliders.Length >= 2)
             {
                 return;
             }
             else
             {
-            player.transform.position = core.transform.position;
-            Destroy(GameObject.Find("AimPoint").GetComponent<CoreThrow>().CoreList[0], 0.05f);
+                player.transform.position = core.transform.position;
+                Destroy(GameObject.Find("AimPoint").GetComponent<CoreThrow>().CoreList[0], 0.05f);
             }
         }
     }  

@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: e083d008e4b0cfc499ac589ebb631026, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -290,7 +290,7 @@ GameObject:
   - component: {fileID: 74170158}
   - component: {fileID: 74170157}
   - component: {fileID: 74170156}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Ground (4)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -545,7 +545,7 @@ GameObject:
   - component: {fileID: 89888711}
   - component: {fileID: 89888710}
   - component: {fileID: 89888709}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Ground (8)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -865,7 +865,7 @@ GameObject:
   - component: {fileID: 183139543}
   - component: {fileID: 183139542}
   - component: {fileID: 183139545}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Wall Test (4)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -985,7 +985,7 @@ GameObject:
   - component: {fileID: 202879677}
   - component: {fileID: 202879676}
   - component: {fileID: 202879675}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Ground (7)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1001,7 +1001,7 @@ Transform:
   m_GameObject: {fileID: 202879673}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 36.13, y: -8.53, z: -0.1035682}
+  m_LocalPosition: {x: 36.04, y: -9.23, z: -0.1035682}
   m_LocalScale: {x: 2.3912108, y: 10.339024, z: 2.9401}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1174,7 +1174,7 @@ GameObject:
   - component: {fileID: 278266256}
   - component: {fileID: 278266255}
   - component: {fileID: 278266258}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Wall Test (5)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -1190,8 +1190,8 @@ Transform:
   m_GameObject: {fileID: 278266253}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 48.28, y: 3.27, z: 0.26}
-  m_LocalScale: {x: 1, y: 8.34362, z: 3.3423}
+  m_LocalPosition: {x: 48.28, y: 2.94, z: 0.26}
+  m_LocalScale: {x: 1, y: 9.073687, z: 3.3423}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 327417765}
@@ -1294,7 +1294,7 @@ GameObject:
   - component: {fileID: 306109316}
   - component: {fileID: 306109315}
   - component: {fileID: 306109314}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Ground (10)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1522,7 +1522,7 @@ GameObject:
   - component: {fileID: 364144115}
   - component: {fileID: 364144114}
   - component: {fileID: 364144117}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Wall Test (2)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -1722,7 +1722,7 @@ GameObject:
   - component: {fileID: 635034435}
   - component: {fileID: 635034434}
   - component: {fileID: 635034437}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Wall Test (6)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -1880,7 +1880,7 @@ GameObject:
   - component: {fileID: 670104149}
   - component: {fileID: 670104148}
   - component: {fileID: 670104151}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Wall Test (7)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -2199,7 +2199,7 @@ GameObject:
   - component: {fileID: 803101450}
   - component: {fileID: 803101449}
   - component: {fileID: 803101448}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Wall Test (12)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -2319,7 +2319,7 @@ GameObject:
   - component: {fileID: 813891055}
   - component: {fileID: 813891054}
   - component: {fileID: 813891053}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Ground (6)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -2503,7 +2503,7 @@ GameObject:
   - component: {fileID: 923408588}
   - component: {fileID: 923408587}
   - component: {fileID: 923408586}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Ground
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -2609,7 +2609,7 @@ GameObject:
   - component: {fileID: 931405513}
   - component: {fileID: 931405512}
   - component: {fileID: 931405515}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Wall Test (11)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -2805,7 +2805,7 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.2051687, y: 8.923216, z: -8}
+  m_LocalPosition: {x: 9.986159, y: 8.911748, z: -8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2901,7 +2901,7 @@ GameObject:
   - component: {fileID: 1003492965}
   - component: {fileID: 1003492964}
   - component: {fileID: 1003492963}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Back Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3006,7 +3006,7 @@ GameObject:
   - component: {fileID: 1003747445}
   - component: {fileID: 1003747444}
   - component: {fileID: 1003747443}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Ground (9)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -3111,7 +3111,7 @@ GameObject:
   - component: {fileID: 1026494950}
   - component: {fileID: 1026494949}
   - component: {fileID: 1026494948}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Ground (11)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -3355,7 +3355,7 @@ GameObject:
   - component: {fileID: 1228360829}
   - component: {fileID: 1228360828}
   - component: {fileID: 1228360831}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Wall Test (3)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -3632,7 +3632,7 @@ GameObject:
   - component: {fileID: 1376283549}
   - component: {fileID: 1376283548}
   - component: {fileID: 1376283547}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Ground (5)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -4274,7 +4274,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   keepAlive: 0
   obstacles: {fileID: 327417764}
-  maxIterations: 200
+  maxIterations: 100
 --- !u!120 &1807566635
 LineRenderer:
   serializedVersion: 2
@@ -4392,7 +4392,7 @@ GameObject:
   - component: {fileID: 1808178502}
   - component: {fileID: 1808178501}
   - component: {fileID: 1808178504}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Wall Test (8)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -4751,7 +4751,7 @@ GameObject:
   - component: {fileID: 1830031078}
   - component: {fileID: 1830031077}
   - component: {fileID: 1830031080}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Wall Test (10)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -5212,7 +5212,7 @@ GameObject:
   - component: {fileID: 2043519034}
   - component: {fileID: 2043519033}
   - component: {fileID: 2043519032}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Ground (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -5299,8 +5299,8 @@ Transform:
   m_GameObject: {fileID: 2043519031}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 63.7, y: -3.001463, z: -0.1035682}
-  m_LocalScale: {x: 57.668026, y: 1, z: 2.9401}
+  m_LocalPosition: {x: 63.7, y: -3.33, z: -0.1035682}
+  m_LocalScale: {x: 57.668026, y: 1.6374, z: 2.9401}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 327417765}
@@ -5318,7 +5318,7 @@ GameObject:
   - component: {fileID: 2049600966}
   - component: {fileID: 2049600965}
   - component: {fileID: 2049600968}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Wall Test (9)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -5439,7 +5439,7 @@ GameObject:
   - component: {fileID: 2067810035}
   - component: {fileID: 2067810034}
   - component: {fileID: 2067810037}
-  m_Layer: 0
+  m_Layer: 20
   m_Name: Wall Test (1)
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -5599,6 +5599,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LvlDoor
       objectReference: {fileID: 0}
+    - target: {fileID: 4335678880297811129, guid: 197368fc3bf01a6468769662575df3af, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6749120002956215110, guid: 197368fc3bf01a6468769662575df3af, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -5660,6 +5664,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RespawnPoint
       objectReference: {fileID: 0}
+    - target: {fileID: 7914489303702729072, guid: 613fa7d6b7057254185bd8f365a87ecd, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5684,6 +5692,10 @@ PrefabInstance:
     - target: {fileID: 5963538965063120660, guid: fb320b39f4e31c04481b49bcf65657f2, type: 3}
       propertyPath: m_Name
       value: DeathBarrier
+      objectReference: {fileID: 0}
+    - target: {fileID: 5963538965063120660, guid: fb320b39f4e31c04481b49bcf65657f2, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6529563174528511965, guid: fb320b39f4e31c04481b49bcf65657f2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5741,6 +5753,10 @@ PrefabInstance:
     - target: {fileID: 1332410540106136786, guid: be862909c87e0aa4eb178fd30b0449db, type: 3}
       propertyPath: m_Name
       value: Pressure Plate
+      objectReference: {fileID: 0}
+    - target: {fileID: 1332410540106136786, guid: be862909c87e0aa4eb178fd30b0449db, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7331530913741752479, guid: be862909c87e0aa4eb178fd30b0449db, type: 3}
       propertyPath: doorBehavior
@@ -5802,6 +5818,10 @@ PrefabInstance:
     - target: {fileID: 2614675831363309174, guid: dc1f006e7f0d6614aa68d19195c12020, type: 3}
       propertyPath: m_Name
       value: Door
+      objectReference: {fileID: 0}
+    - target: {fileID: 2614675831363309174, guid: dc1f006e7f0d6614aa68d19195c12020, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8001662408486589305, guid: dc1f006e7f0d6614aa68d19195c12020, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6202,6 +6222,10 @@ PrefabInstance:
       value: Wall Test
       objectReference: {fileID: 0}
     - target: {fileID: 4940353233984595576, guid: 8a60a9e8fd339764f853e7904501ca31, type: 3}
+      propertyPath: m_Layer
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4940353233984595576, guid: 8a60a9e8fd339764f853e7904501ca31, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -6312,6 +6336,10 @@ PrefabInstance:
     - target: {fileID: 920049565807727488, guid: 3b13dfd834aab5e4abefe2596046bac0, type: 3}
       propertyPath: m_Name
       value: Checkpoint
+      objectReference: {fileID: 0}
+    - target: {fileID: 920049565807727488, guid: 3b13dfd834aab5e4abefe2596046bac0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7465447624116002931, guid: 3b13dfd834aab5e4abefe2596046bac0, type: 3}
       propertyPath: respawn

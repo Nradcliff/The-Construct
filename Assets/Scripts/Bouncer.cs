@@ -12,9 +12,8 @@ public class Bouncer : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
         Rigidbody rb = collision.gameObject.GetComponent<Rigidbody>();
-        //Vector3 dir = collision.contacts[0].normal;
 
-        if(rb != null /*&& curBounces < NumOfBounces*/&& rb != GameObject.Find("Player").GetComponent<Rigidbody>())
+        if(rb != null && rb != GameObject.Find("Player").GetComponent<Rigidbody>())
         {
             Reflect(rb, collision.contacts[0].normal);
             rb.AddForce(power, thrust, 0, ForceMode.Impulse);
