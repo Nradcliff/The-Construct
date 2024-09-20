@@ -3039,6 +3039,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 327417765}
     m_Modifications:
+    - target: {fileID: 41864877106175584, guid: f9ad892b40809484fb9bdd2676dd349c, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1297285416}
+    - target: {fileID: 41864877106175584, guid: f9ad892b40809484fb9bdd2676dd349c, type: 3}
+      propertyPath: respawnPoint
+      value: 
+      objectReference: {fileID: 1381314137}
     - target: {fileID: 2628421600890936026, guid: f9ad892b40809484fb9bdd2676dd349c, type: 3}
       propertyPath: m_Name
       value: Spikes
