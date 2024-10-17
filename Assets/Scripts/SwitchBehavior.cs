@@ -16,6 +16,8 @@ public class SwitchBehavior : MonoBehaviour
     float switchSpeed = 1f;
     float switchDelay = 0.2f;
     bool isPressingSwitch = false;
+    public AudioSource switchActivatedSound;
+
 
     [SerializeField] InventoryManager.AllItems requiredItem;
 
@@ -34,6 +36,7 @@ public class SwitchBehavior : MonoBehaviour
         if (isPressingSwitch)
         {
             MoveSwitchDown();
+           // switchActivatedSound.Play();
         }
         else if (!isPressingSwitch)
         {

@@ -10,6 +10,16 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("lvl 1");
     }
 
+    public void LevelSelection()
+    {
+        SceneManager.LoadScene("Level Select");
+    }
+
+    public void MainReturn()
+    {
+        SceneManager.LoadScene("Main Menu");
+    }
+
     public void LoadGame()
     {
         

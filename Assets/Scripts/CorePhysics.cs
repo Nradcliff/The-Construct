@@ -8,6 +8,7 @@ public class CorePhysics : PoolableObject
     [SerializeField] private Rigidbody core;
     public GameObject CORE;
     public PoolableObject Impact;
+    public AudioSource CollideSound;
  
     void Awake()
     {
@@ -25,6 +26,11 @@ public class CorePhysics : PoolableObject
 
             pooledObject.transform.position = contact.point;
             pooledObject.transform.right = contact.normal;
+
+            if(collision.gameObject.name != "Player")
+            {
+                CollideSound.Play();
+            }
         }
     }
 }

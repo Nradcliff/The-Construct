@@ -12,6 +12,7 @@ public class CoreThrow : MonoBehaviour
     public GameObject[] CoreList;
     public float LaunchForce;
     public int num;
+    public AudioSource throwSound;
 
     Vector3 currentPosition;
 
@@ -53,6 +54,7 @@ public class CoreThrow : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             Throw();
+            throwSound.Play();
         }
 
         CoreList = GameObject.FindGameObjectsWithTag("Core");

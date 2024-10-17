@@ -14,6 +14,7 @@ public class PlateTrigger : MonoBehaviour
     float plateSpeed = 1f;
     float plateDelay = 0.2f;
     bool isPressingPlate = false;
+    public AudioSource plateActivatedSound;
 
     // Start is called before the first frame update
     void Awake()
@@ -30,6 +31,7 @@ public class PlateTrigger : MonoBehaviour
         if (isPressingPlate)
         {
             MovePlateDown();
+            //plateActivatedSound.Play();
         }
         else if (!isPressingPlate)
         {

@@ -10,6 +10,7 @@ public class DoorBehavior : MonoBehaviour
     Vector3 doorOpenPos;
     Vector3 doorOpenHorizontalPos;
     float doorSpeed = 10f;
+    public AudioSource doorSound;
 
     // Start is called before the first frame update
     void Awake()
@@ -37,11 +38,16 @@ public class DoorBehavior : MonoBehaviour
         if ((transform.position != doorOpenPos) && isDoorOpen)
         {
             transform.position = Vector3.MoveTowards(transform.position, doorOpenPos, doorSpeed * Time.deltaTime);
+            doorSound.pitch = 1f;
+            doorSound.Play();
         }
         else if ((transform.position != doorOpenHorizontalPos) && isDoorOpenHorizontal)
         {
             transform.position = Vector3.MoveTowards(transform.position, doorOpenHorizontalPos, doorSpeed * Time.deltaTime);
+            doorSound.pitch = 1f;
+            doorSound.Play();
         }
+        
     }
 
     void CloseDoor()
@@ -49,6 +55,10 @@ public class DoorBehavior : MonoBehaviour
         if (transform.position != doorClosedPos);
         {
             transform.position = Vector3.MoveTowards(transform.position, doorClosedPos, doorSpeed * Time.deltaTime);
+            //doorSound.pitch = -1f;
+           // doorSound.timeSamples = doorSound.clip.samples - 1;
+            //doorSound.Play();
         }
     }
+    
 }
