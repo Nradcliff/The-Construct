@@ -10,11 +10,12 @@ TagManager:
   - NextLevel
   - dummy
   - Sound
+  - CinemachineTarget
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - 
