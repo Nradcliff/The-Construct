@@ -31,7 +31,7 @@ public class PlateTrigger : MonoBehaviour
         if (isPressingPlate)
         {
             MovePlateDown();
-            //plateActivatedSound.Play();
+            
         }
         else if (!isPressingPlate)
         {
@@ -44,6 +44,7 @@ public class PlateTrigger : MonoBehaviour
         if (transform.position != plateDownPos);
         {
             transform.position = Vector3.MoveTowards(transform.position, plateDownPos, plateSpeed * Time.deltaTime);
+            
         }
     }
 
@@ -63,6 +64,7 @@ public class PlateTrigger : MonoBehaviour
             if (isDoorOpenPlate && !doorBehavior.isDoorOpen)
             {
                 doorBehavior.isDoorOpen = !doorBehavior.isDoorOpen;
+                plateActivatedSound.Play();
             }
             else if (isDoorOpenHorizontalPlate && !doorBehavior.isDoorOpenHorizontal)
             {

@@ -8,11 +8,13 @@ public class Teleport : MonoBehaviour
     public Transform core;
     public LayerMask boundryDetect;
     public AudioSource TeleportSound;
+    private ManagerSound ManagerSound;
 
     // Start is called before the first frame update
     void Awake()
     {
         player = GameObject.Find("Player").transform;
+        ManagerSound = GameObject.FindGameObjectWithTag("Sound").GetComponent<ManagerSound>();
     }
 
     // Update is called once per frame
@@ -28,7 +30,7 @@ public class Teleport : MonoBehaviour
             else
             {
                 player.transform.position = core.transform.position;
-                TeleportSound.Play();
+                ManagerSound.CallTeleportSound();
                 Destroy(GameObject.Find("AimPoint").GetComponent<CoreThrow>().CoreList[0], 0.05f);
             }
         }

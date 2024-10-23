@@ -9,6 +9,7 @@ TagManager:
   - Wall
   - NextLevel
   - dummy
+  - Sound
   layers:
   - Default
   - TransparentFX

@@ -36,7 +36,6 @@ public class SwitchBehavior : MonoBehaviour
         if (isPressingSwitch)
         {
             MoveSwitchDown();
-           // switchActivatedSound.Play();
         }
         else if (!isPressingSwitch)
         {
@@ -65,6 +64,7 @@ public class SwitchBehavior : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             isPressingSwitch = !isPressingSwitch;
+            switchActivatedSound.Play();
 
             if (HasRequiredItem(requiredItem))
             {
