@@ -17,7 +17,7 @@ public class PlateTrigger : MonoBehaviour
     public AudioSource plateActivatedSound;
 
     // Start is called before the first frame update
-    void Awake()
+    void Start()
     {
         plateSizeY = transform.localScale.y / 2;
 
@@ -69,6 +69,7 @@ public class PlateTrigger : MonoBehaviour
             else if (isDoorOpenHorizontalPlate && !doorBehavior.isDoorOpenHorizontal)
             {
                 doorBehavior.isDoorOpenHorizontal = !doorBehavior.isDoorOpenHorizontal;
+                
             }
         }
     }
