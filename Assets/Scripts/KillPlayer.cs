@@ -5,13 +5,12 @@ using UnityEngine;
 public class KillPlayer : MonoBehaviour
 {
     public GameObject player;
-    public Transform respawnPoint;
+    public GameObject respawnPoint;
     // Start is called before the first frame update
     void Start()
     {
         
     }
-
 
     // Update is called once per frame
     void Update()
@@ -19,13 +18,16 @@ public class KillPlayer : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter(Collision other)
+    private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("IS COLLIDE");
         if (other.gameObject.CompareTag("Player"))
         {
-            player.transform.position = respawnPoint.position;
-            GameObject.Find("Player").GetComponent<LivesCounter>().loseLife();
+            Debug.Log("IS TOUCH");
+            player.transform.position = respawnPoint.transform.position;
+            player.GetComponent<LivesCounter>().loseLife();
         }
     }
+
 
 }

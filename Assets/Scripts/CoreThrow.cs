@@ -39,8 +39,8 @@ public class CoreThrow : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Mouse1))
         {
-            
-            if(currentPosition != transform.transform.position)
+
+            if (currentPosition != transform.position)
             {
                 projection.GetComponent<LineRenderer>().enabled = true;
                 predict();
@@ -48,10 +48,11 @@ public class CoreThrow : MonoBehaviour
         }
         else
         {
-            projection.GetComponent<LineRenderer>().enabled = false;
+           projection.GetComponent<LineRenderer>().enabled = false;
+           predict();
         }
 
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") && Input.GetKey(KeyCode.Mouse1))
         {
             Throw();
             throwSound.Play();

@@ -6,7 +6,7 @@ public class ObjectPool
     private GameObject Parent;
     private PoolableObject Prefab;
     private int Size;
-    private List<PoolableObject> AvailableObjectsPool;
+    private List<PoolableObject> AvailableObjectsPool = new();
     private static Dictionary<PoolableObject, ObjectPool> ObjectPools = new Dictionary<PoolableObject, ObjectPool>();
 
     private ObjectPool(PoolableObject Prefab, int Size)
