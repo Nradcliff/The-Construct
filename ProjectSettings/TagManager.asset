@@ -12,6 +12,7 @@ TagManager:
   - Sound
   - CinemachineTarget
   - Hazard
+  - SecondaryCam
   layers:
   - Default
   - TransparentFX

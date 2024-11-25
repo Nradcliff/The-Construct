@@ -18,7 +18,7 @@ public class CoreThrow : MonoBehaviour
 
     void Start()
     {
-        mainCam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
+        mainCam = GameObject.FindGameObjectWithTag("SecondaryCam").GetComponent<Camera>();
         currentPosition = CoreSpawn.transform.position;
 
         predict();
